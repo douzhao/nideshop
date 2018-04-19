@@ -17,6 +17,8 @@ git clone https://github.com/tumobi/nideshop
 + 创建数据库nideshop并导入项目根目录下的nideshop.sql
 ```
 CREATE SCHEMA `nideshop` DEFAULT CHARACTER SET utf8mb4 ;
+use nideshop;
+source /path/to/nideshop/project/path/nideshop.sql;
 ```
 > 注意数据库字符编码为utf8mb4 
 + 更改数据库配置
